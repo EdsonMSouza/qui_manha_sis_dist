@@ -15,9 +15,11 @@
                 <br>
                 <p>Faça perguntas como: linux; php; dns; etc.</p>
             </div>
+
             <div class="body" id="chatbody">
                 <div class="scroller"></div>
             </div>
+
             <form class="chat" method="post" autocomplete="off">
                 <div>
                     <input type="text" name="chat" id="chat" placeholder="Mensagem...">
@@ -26,6 +28,7 @@
                     <input type="submit" value="Enviar" id="btn">
                 </div>
             </form>
+
         </div>
     </div>
     <script src="app.js"></script>
